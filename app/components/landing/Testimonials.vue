@@ -40,8 +40,7 @@ defineProps<{
         >
           <div class="flex items-center gap-4 justify-center">
             <UAvatar
-              :src="item.author.avatar.src"
-              :srcset="item.author.avatar.srcset"
+              :src="item.author.avatar?.src"
               size="xl"
               class="ring-2 ring-violet-500/50"
             />

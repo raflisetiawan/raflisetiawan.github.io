@@ -6,9 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/content',
     '@vueuse/nuxt',
-    'nuxt-og-image',
-    'motion-v/nuxt',
-    '@nuxtjs/mcp-toolkit'
+    'motion-v/nuxt'
   ],
 
   ssr: false,
@@ -28,11 +26,6 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
-
-  site: {
-    url: 'https://raflisetiawan.github.io/Portfolio',
-    name: 'Rafli Setiawan Portfolio'
-  },
 
   compatibilityDate: '2024-11-01',
 
@@ -55,15 +48,6 @@ export default defineNuxtConfig({
         commaDangle: 'never',
         braceStyle: '1tbs'
       }
-    }
-  },
-
-  ogImage: {
-    enabled: true,
-    defaults: {
-      component: 'NuxtSeo',
-      width: 1200,
-      height: 630
     }
   }
 })

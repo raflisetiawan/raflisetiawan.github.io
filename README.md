@@ -1,62 +1,121 @@
-# Nuxt Portfolio Template
+# Rafli Setiawan - Portfolio
 
 [![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+[![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?logo=github)](https://raflisetiawan.github.io/Portfolio/)
 
-Use this template to create your own portfolio with [Nuxt UI](https://ui.nuxt.com).
+Personal portfolio website built with Nuxt 3 and Nuxt UI, featuring a modern "Cosmic Gradient" design with glassmorphism effects.
 
-- [Live demo](https://portfolio-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/getting-started/installation)
+🔗 **Live Demo**: [raflisetiawan.github.io/Portfolio](https://raflisetiawan.github.io/Portfolio/)
 
-<a href="https://portfolio-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/portfolio-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png">
-    <img alt="Nuxt Portfolio Template" src="https://ui.nuxt.com/assets/templates/nuxt/portfolio-dark.png">
-  </picture>
-</a>
+## ✨ Features
 
-## Quick Start
+- 🎨 **Cosmic Gradient Theme** - Vibrant violet/purple color palette
+- 🌟 **Glassmorphism Effects** - Modern glass-like UI elements
+- 🎭 **Animated Background** - Floating gradient blobs
+- 📱 **Fully Responsive** - Works on all devices
+- 🌙 **Dark/Light Mode** - Smooth theme switching
+- ⚡ **Fast Performance** - Static site generation
+- 🔍 **SEO Optimized** - Meta tags and structured data
 
-```bash [Terminal]
-npm create nuxt@latest -- -t github:nuxt-ui-templates/portfolio
-```
+## 🛠️ Tech Stack
 
-## Deploy your own
+- **Framework**: [Nuxt 3](https://nuxt.com/)
+- **UI Library**: [Nuxt UI](https://ui.nuxt.com/)
+- **Styling**: Tailwind CSS
+- **Content**: [@nuxt/content](https://content.nuxt.com/)
+- **Animations**: [Motion-V](https://motion.vueuse.org/)
+- **Deployment**: GitHub Pages
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=portfolio&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fportfolio&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fportfolio-dark.png&demo-url=https%3A%2F%2Fportfolio-template.nuxt.dev%2F&demo-title=Nuxt%20Portfolio%20Template&demo-description=A%20sleek%20portfolio%20template%20to%20showcase%20your%20work%2C%20skills%20and%20blog%20powered%20by%20Nuxt%20Content.)
+## 🚀 Quick Start
 
-## Setup
+### Prerequisites
 
-Make sure to install the dependencies:
+- Node.js 18+ 
+- npm or pnpm
 
-```bash
-pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### Installation
 
 ```bash
-pnpm dev
+# Clone the repository
+git clone https://github.com/raflisetiawan/Portfolio.git
+cd Portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 ```
 
-## Production
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Build the application for production:
+### Build for Production
 
 ```bash
-pnpm build
+# Generate static site
+npm run generate
+
+# Preview production build
+npm run preview
 ```
 
-Locally preview production build:
+## 📁 Project Structure
 
-```bash
-pnpm preview
+```
+Portfolio/
+├── app/
+│   ├── components/     # Vue components
+│   ├── layouts/        # Page layouts
+│   ├── pages/          # Route pages
+│   └── assets/css/     # Global styles
+├── content/            # Markdown/YAML content
+│   ├── index.yml       # Homepage content
+│   ├── about.yml       # About page
+│   ├── projects/       # Project entries
+│   └── blog/           # Blog posts
+├── public/             # Static assets
+└── nuxt.config.ts      # Nuxt configuration
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 📝 Customization
 
-## Renovate integration
+### Update Personal Info
 
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+Edit `content/index.yml` for homepage content:
+- Name and title
+- About section
+- Work experience
+- FAQ
+
+Edit `app/app.config.ts` for:
+- Profile picture
+- Email and contact links
+- Social media links
+
+### Add Projects
+
+Create new `.yml` files in `content/projects/`:
+
+```yaml
+title: Project Name
+description: Project description
+image: https://example.com/image.jpg
+url: https://project-url.com
+tags: ["Tag1", "Tag2"]
+date: "2024"
+```
+
+## 📄 License
+
+MIT License - feel free to use this template for your own portfolio!
+
+## 👤 Author
+
+**Rafli Setiawan**
+- GitHub: [@raflisetiawan](https://github.com/raflisetiawan)
+- LinkedIn: [rafli-setiawan](https://linkedin.com/in/rafli-setiawan-820b62227)
+- Email: raflisetiawan006@mail.com
+
+---
+
+⭐ If you like this project, please give it a star!
