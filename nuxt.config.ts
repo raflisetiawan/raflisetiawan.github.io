@@ -1,6 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  // Required: put modules first
   modules: [
     '@nuxt/eslint',
     '@nuxt/image',
@@ -12,8 +11,12 @@ export default defineNuxtConfig({
     '@nuxtjs/mcp-toolkit'
   ],
 
-  // GitHub Pages Configuration
   ssr: false,
+
+  devtools: {
+    enabled: true
+  },
+
   app: {
     baseURL: '/Portfolio/',
     head: {
@@ -24,18 +27,14 @@ export default defineNuxtConfig({
     }
   },
 
+  css: ['~/assets/css/main.css'],
+
   site: {
     url: 'https://raflisetiawan.github.io/Portfolio',
     name: 'Rafli Setiawan Portfolio'
   },
 
-  css: ['~/assets/css/main.css'],
-
   compatibilityDate: '2024-11-01',
-
-  devtools: {
-    enabled: true
-  },
 
   nitro: {
     prerender: {
@@ -50,21 +49,21 @@ export default defineNuxtConfig({
     }
   },
 
-  ogImage: {
-    enabled: true,
-    defaults: {
-      component: 'NuxtSeo',
-      width: 1200,
-      height: 630
-    }
-  },
-
   eslint: {
     config: {
       stylistic: {
         commaDangle: 'never',
         braceStyle: '1tbs'
       }
+    }
+  },
+
+  ogImage: {
+    enabled: true,
+    defaults: {
+      component: 'NuxtSeo',
+      width: 1200,
+      height: 630
     }
   }
 })
