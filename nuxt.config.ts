@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/Portfolio/',
+    baseURL: '/',
     head: {
       title: 'Rafli Setiawan - Full Stack Developer',
       meta: [
