@@ -1,0 +1,6 @@
+title: Mini Photoshop API
+description: Backend API for a Mini Photoshop application built with NestJS. Provides image processing endpoints for filters, transformations, and effects using Node.js image processing libraries.
+image: https://images.unsplash.com/photo-1611532736597-de2d4265fba3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1374&q=80
+url: "https://github.com/raflisetiawan/mini-photoshop-api"
+tags: ["NestJS", "Node.js", "TypeScript", "API"]
+date: "2023"

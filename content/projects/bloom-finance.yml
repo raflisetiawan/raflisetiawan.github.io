@@ -1,0 +1,6 @@
+title: UISI Kelas Online
+description: Built a comprehensive online class system with role-based access control, class management, and assignment submission features. Integrated Laravel backend APIs with Vue.js frontend and MySQL database.
+image: https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1474&q=80
+url: "https://github.com/raflisetiawan"
+tags: ["Laravel", "Vue.js", "MySQL", "Full Stack"]
+date: "2024"

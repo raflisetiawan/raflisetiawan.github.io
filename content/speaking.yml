@@ -1,0 +1,41 @@
+title: Tech Stack & Skills
+description: Explore my technical skills and the technologies I work with to build production-ready web applications.
+links:
+  - label: Contact me
+    size: md
+events:
+  - category: Conference
+    title: "Laravel & Vue.js - Full Stack Development"
+    date: "2024-01-01"
+    location: "Backend & Frontend"
+  - category: Conference
+    title: "React & Next.js - Modern Frontend Development"
+    date: "2024-01-01"
+    location: "Frontend Technologies"
+  - category: Conference
+    title: "Node.js (Express.js, NestJS) - API Development"
+    date: "2024-01-01"
+    location: "Backend Technologies"
+  - category: Live talk
+    title: "PostgreSQL & MySQL - Database Management"
+    date: "2024-01-01"
+    location: "Database Technologies"
+  - category: Live talk
+    title: "Git & Docker - DevOps Tools"
+    date: "2024-01-01"
+    location: "Development Tools"
+  - category: Live talk
+    title: "RESTful API & Microservices Architecture"
+    date: "2024-01-01"
+    location: "Architecture Patterns"
+  - category: Podcast
+    title: "Go Programming Language"
+    date: "2024-01-01"
+    location: "Currently Learning"
+  - category: Podcast
+    title: "TypeScript - Type-Safe JavaScript"
+    date: "2024-01-01"
+    location: "Programming Languages"
+seo:
+  title: "Skills - Rafli Setiawan"
+  description: "Explore my technical skills in Laravel, React, Next.js, Vue.js, Node.js, and other modern web technologies."

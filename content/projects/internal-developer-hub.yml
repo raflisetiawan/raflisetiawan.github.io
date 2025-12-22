@@ -1,0 +1,6 @@
+title: BeSpoke Decision Support Tool
+description: Developed a patient-facing decision support web application with multi-step questionnaire and personalized outcome predictions. Built interactive data visualizations using D3.js and PDF export functionality for clinical consultation.
+image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80
+url: "https://github.com/raflisetiawan"
+tags: ["React", "TypeScript", "Firebase", "D3.js"]
+date: "2024"

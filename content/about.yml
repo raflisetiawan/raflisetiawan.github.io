@@ -1,0 +1,37 @@
+title: About Me
+description: Learn more about my journey as a Full Stack Developer, my technical skills, and my passion for building production-ready web applications.
+content: |
+  Hi, I'm **Rafli Setiawan**, a Full Stack Developer from Indonesia. I recently graduated from **Universitas Internasional Semen Indonesia** with a Bachelor's degree in Informatics, achieving a GPA of 3.33/4.00.
+
+  My journey in web development started during my university years, and I've since gained hands-on experience through internships and professional work. I'm passionate about building web applications that are not just functional, but also scalable and maintainable.
+
+  ### My Tech Stack
+
+  I work with a variety of modern technologies:
+
+  - **Backend**: Laravel, Node.js (Express.js, NestJS), Go
+  - **Frontend**: React.js, Next.js, Vue.js, Nuxt.js
+  - **Databases**: PostgreSQL, MySQL, MongoDB, SQLite
+  - **Tools**: Git, Docker, Postman, VS Code, Figma
+
+  ### Professional Experience
+
+  Currently, I'm working as a **Frontend Developer at PT. AZ Logistic**, where I develop and maintain web interfaces using Next.js, building modules like User Management, My Voucher, and My Subscription.
+
+  Previously, I completed a **Fullstack Developer Internship at PT Semen Indonesia Tbk.**, where I developed a Knowledge Management & Innovation System using Laravel, implementing authentication, role-based access, and automated ranking features.
+
+  ### What Drives Me
+
+  I'm driven by the challenge of solving complex problems through code. I enjoy the entire process of building applications—from database design to API development to creating responsive user interfaces. Clean code and good architecture are values I always strive for.
+
+  ### Let's Connect
+
+  I'm always open to discussing new projects and opportunities. Check out my [projects](/projects) or feel free to [get in touch](mailto:raflisetiawan006@mail.com)!
+images:
+  - src: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1469&auto=format&fit=crop
+    alt: Coding workspace
+  - src: https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop
+    alt: Developer setup
+seo:
+  title: "About Rafli Setiawan - Full Stack Developer"
+  description: "Learn more about Rafli Setiawan, a Full Stack Developer skilled in Laravel, React, Next.js, Vue.js, and modern web technologies."

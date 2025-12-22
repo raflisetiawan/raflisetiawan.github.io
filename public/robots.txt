@@ -1,0 +1,12 @@
+# Robots.txt for Rafli Setiawan Portfolio
+# https://raflisetiawan.dev
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://raflisetiawan.dev/sitemap.xml
+
+# Block crawlers from accessing private or irrelevant paths
+Disallow: /_nuxt/
+Disallow: /api/

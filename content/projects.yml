@@ -1,0 +1,9 @@
+title: Building Full Stack Applications.
+description: I've worked on a variety of projects, from backend APIs to frontend applications. Here are some highlights showcasing my skills in Laravel, React, Next.js, Vue.js, and more.
+links:
+  - label: "Contact Me"
+    color: "neutral"
+  - label: 'Email me'
+seo:
+  title: "Projects - Rafli Setiawan"
+  description: "Explore my portfolio of full stack web development projects built with Laravel, React, Next.js, Vue.js, and other modern technologies."
