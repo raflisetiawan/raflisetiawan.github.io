@@ -27,6 +27,11 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  // Configure @nuxt/image for static hosting (GitHub Pages)
+  image: {
+    provider: 'none'
+  },
+
   compatibilityDate: '2024-11-01',
 
   nitro: {
