@@ -53,12 +53,6 @@ useSeoMeta({
               size="lg"
               class="btn-gradient shine"
             />
-            <UButton
-              :to="`mailto:${global.email}`"
-              v-bind="page.links[1]"
-              size="lg"
-              class="btn-glass"
-            />
           </div>
         </Motion>
       </template>

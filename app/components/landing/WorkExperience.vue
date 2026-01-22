@@ -16,7 +16,7 @@ defineProps<{
     <UPageSection
       :title="page.experience.title"
       :ui="{
-        container: '!p-0 glass-card p-6 sm:p-8 gap-4 sm:gap-6',
+        container: '!p-3 glass-card p-6 sm:p-8 gap-4 sm:gap-6',
         title: 'text-left text-xl sm:text-2xl lg:text-2xl font-semibold gradient-text',
         description: 'mt-4'
       }"

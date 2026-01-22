@@ -169,7 +169,7 @@ async function handleSubmit() {
               type="submit"
               size="lg"
               :loading="isSubmitting"
-              class="w-full sm:w-auto btn-gradient shine"
+              class="w-full sm:w-auto shine"
             >
               <template #leading>
                 <UIcon
@@ -209,7 +209,7 @@ async function handleSubmit() {
             <p class="text-sm text-muted">
               Email
             </p>
-            <p class="font-medium text-highlighted group-hover:text-violet-400 transition-colors">
+            <p class="text-sm  group-hover:text-violet-400 transition-colors">
               {{ global.email }}
             </p>
           </div>
