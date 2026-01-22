@@ -191,12 +191,13 @@ defineProps<{
             delay: 1.2 + index * 0.08
           }"
         >
-          <NuxtImg
+          <img
             width="250"
             height="250"
             class="rounded-xl aspect-square object-cover shadow-lg ring-1 ring-white/10 transition-all duration-500 hover:ring-violet-500/50"
             :class="index % 2 === 0 ? '-rotate-3 hover:rotate-0' : 'rotate-3 hover:rotate-0'"
-            v-bind="img"
+            :src="img.src"
+            :alt="img.alt"
           />
         </Motion>
       </UMarquee>
